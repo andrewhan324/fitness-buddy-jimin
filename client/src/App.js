@@ -14,12 +14,12 @@ function App() {
   });
   const navigate = useNavigate();
 
-  function handleCallbackResponse(response) {
-    console.log("Encoded JWT ID token: " + response.credential);
-    var userObject = jwt_decode(response.credential);
-    console.log(userObject); 
-    setUser(userObject); 
-  }
+  // function handleCallbackResponse(response) {
+  //   console.log("Encoded JWT ID token: " + response.credential);
+  //   var userObject = jwt_decode(response.credential);
+  //   console.log(userObject); 
+  //   setUser(userObject); 
+  // }
 
   // useEffect(() => {
   //  /* global google */
